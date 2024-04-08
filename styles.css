@@ -1,82 +1,81 @@
-/* Style all <div> elements to have a border and padding */
+
 div {
     border: 1px solid black;
     padding: 10px;
 }
 
-/* Use a class selector to change the font color of specific <div> elements */
+
 .colored-div {
-    color: blue; /* Change 'blue' to any color you prefer */
+    color: blue; 
 }
 
-/* Use an ID selector to increase the font size of one <div> element */
+
 #large-text {
-    font-size: 20px; /* Change '20px' to any size you prefer */
+    font-size: 20px; 
 }
 
-/* Use the child selector ( > ) to style only the direct <li> children of the <ul> element */
+
 ul > li {
     color: green; /* Change 'green' to any color you prefer */
 }
 
-/* Use the adjacent sibling selector ( + ) to change the background color of an element that directly follows another specific element */
-/* Let's say we want to change the background color of a <p> element that directly follows a <div> element */
+
 div + p {
     background-color: yellow; /* Change 'yellow' to any color you prefer */
 }
 
-/* Use the attribute selector to change the border of text input fields */
+
 input[type="text"] {
-    border: 2px solid red; /* Change '2px solid red' to any border style you prefer */
+    border: 2px solid red; 
 }
 
 
-/* Style the first child and last child <li> elements differently using :first-child and :last-child */
+
 li:first-child {
-    color: red; /* Change 'red' to any color you prefer */
+    color: red; 
 }
 
 li:last-child {
-    color: blue; /* Change 'blue' to any color you prefer */
+    color: blue; 
 }
 
 /* Use the :nth-child pseudo-class to style even and odd <li> elements differently */
 li:nth-child(even) {
-    background-color: #f2f2f2; /* Change '#f2f2f2' to any color you prefer */
+    background-color: #f2f2f2; 
 }
 
 li:nth-child(odd) {
-    background-color: #e9e9e9; /* Change '#e9e9e9' to any color you prefer */
+    background-color: #e9e9e9; 
 }
 
-/* Apply a hover effect on links using the :hover pseudo-class */
+
 a:hover {
-    color: green; /* Change 'green' to any color you prefer */
+    color: green; 
 }
 
 
-/* Use the ::first-line pseudo-element to change the styling of the first line of every paragraph */
+
 p::first-line {
-    color: red; /* Change 'red' to any color you prefer */
+    color: red;
     font-weight: bold;
 }
 
-/* Use the ::before pseudo-element to add content before a specific element */
+
 /* Let's say we want to add content before each <p> element */
 p::before {
     content: "Before paragraph: ";
-    color: blue; /* Change 'blue' to any color you prefer */
+    color: blue; 
 }
 
-/* Style the selection color using the ::selection pseudo-element */
+
 ::selection {
-    background-color: yellow; /* Change 'yellow' to any color you prefer */
+    background-color: yellow; 
     color: black;
 }
 
 
 /* Let's say the specific class is .specific-class */
 div.specific-class p span {
-    color: plum; /* Change 'red' to any color you prefer */
+    color: plum; 
     font-weight: bold;
 }
